@@ -45,7 +45,7 @@ public class CameraManager : MonoBehaviour
 	private int _layerMaskBaseItemCollider;
 	private int _layerMaskGroundCollider;
 
-	private float screenRatio = Screen.width / Screen.height;
+	private float screenRatio = Screen.width / (Screen.height+1);
 	private Vector2 _defaultTouchPos = new Vector2(9999, 9999);
 	private float _minimumMoveDistanceForItemMove = 0.2f;
 	private float _maxZoomFactor = 30;
